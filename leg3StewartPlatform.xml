@@ -1,0 +1,2006 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="06/18/23||15:52:26" using="Simscape Multibody Link Version 7.4" from="SolidWorks 28.0.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="leg3StewartPlatform" uid="leg3StewartPlatform" version="457">
+<AssemblyFile name="leg3StewartPlatform.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Arm-7" uid="Arm-7" entityUid="Arm">
+<Transform>
+<Rotation>-0.86602540378443893 -1.9363032131073237e-16 0.49999999999999944 -1.826466983528021e-16 1 0 -0.49999999999999944 0 -0.86602540378443893</Rotation>
+<Translation>0.23584936490538905 0.010000000000000014 0.17658221315960246</Translation>
+</Transform>
+<Instance name="Bracket2-1" uid="Bracket2-1" entityUid="Bracket2*:*Default">
+<Transform>
+<Rotation>-0.99401402814486495 0.10925251416429319 1.4710455076283324e-14 0.10842415615709446 0.98647736424489108 0.1229089589658723 0.013428112780323076 0.1221732293967603 -0.99241795016309808</Rotation>
+<Translation>0.0046978581092557148 0.085418526662538144 0.0052534488641729216</Translation>
+</Transform>
+</Instance>
+<Instance name="UNCA12-2" uid="UNCA12-2" entityUid="UNCA12">
+<Transform>
+<Rotation>0 2.9976021664879234e-15 -1 0.99241795016309786 0.12290895896587435 3.6843216167688021e-16 0.12290895896587434 -0.99241795016309797 -2.9748741974704061e-15</Rotation>
+<Translation>0.0067500000001927685 0.042999999999994015 1.0884348977668878e-13</Translation>
+</Transform>
+<Instance name="12-2" uid="12-2" entityUid="12*:*Default">
+<Transform>
+<Rotation>0.99401402814486539 -1.3322676295501878e-15 0.10925251416429166 9.9920072216264089e-16 1 3.5527136788005009e-15 -0.1092525141642916 -3.5527136788005009e-15 0.99401402814486517</Rotation>
+<Translation>0.018389259520722123 5.6621374255882984e-15 0.0047288284880078191</Translation>
+</Transform>
+</Instance>
+<Instance name="B_UNCA12-1" uid="B_UNCA12-1" grounded="true" entityUid="B_UNCA12*:*Default">
+<Transform>
+<Rotation>0.99999999999999989 0 0 0 -1 0 0 0 -0.99999999999999989</Rotation>
+<Translation>-0.025999999999999999 0 0.0067500000000000338</Translation>
+</Transform>
+</Instance>
+<Instance name="L_UNCA12-1" uid="L_UNCA12-1" entityUid="L_UNCA12*:*Default">
+<Transform>
+<Rotation>0.99241795016309664 0.12290895896588444 3.9710074593743239e-15 0.12290895896588445 -0.99241795016309653 -4.8619352743707689e-14 -2.0348549484095975e-15 4.8738790781044372e-14 -1</Rotation>
+<Translation>-0.025802866707723974 -0.0031956329080861795 0.0067499999858648962</Translation>
+</Transform>
+</Instance>
+<Instance name="12-5-1" uid="12-5-1" entityUid="12-5*:*Default">
+<Transform>
+<Rotation>-2.4841240175987882e-15 -0.12290895896588172 -0.99241795016309697 3.2585045772748351e-14 0.99241795016309697 -0.12290895896588172 1 -3.2643305428706817e-14 1.5397047882877984e-15</Rotation>
+<Translation>-0.017130642498507952 -0.012197995227018588 0.0067499999948817946</Translation>
+</Transform>
+</Instance>
+<Instance name="L_UNCA12-2" uid="L_UNCA12-2" entityUid="L_UNCA12*:*Default">
+<Transform>
+<Rotation>-0.9940140281448655 -0.10925251416429069 8.9534043694219684e-16 -6.3837823915946511e-16 -2.3869795029440877e-15 -1 0.10925251416429069 -0.99401402814486561 2.3029466832047375e-15</Rotation>
+<Translation>0.0258443647318089 3.9690473130349346e-15 0.0039094346317748441</Translation>
+</Transform>
+</Instance>
+<Instance name="12-1" uid="12-1" entityUid="12*:*Default">
+<Transform>
+<Rotation>-0.99241795016309664 -1.9775847626135601e-15 -0.1229089589658839 -0.12290895896588391 3.269606807521086e-14 0.99241795016309675 2.0271384754722992e-15 0.99999999999999978 -3.269606807521086e-14</Rotation>
+<Translation>-0.018359732086504193 -0.0022738157235188822 0.0067499999929512833</Translation>
+</Transform>
+</Instance>
+<Instance name="12-5-2" uid="12-5-2" entityUid="12-5*:*Default">
+<Transform>
+<Rotation>1.0685896612017132e-15 0.10925251416429337 0.99401402814486517 1 4.6074255521943996e-15 -1.5543122344752192e-15 -4.8849813083506888e-15 0.99401402814486506 -0.10925251416429331</Rotation>
+<Translation>0.017296734379083009 6.2033711500930622e-15 -0.0052113117934434183</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="PSFMR12-30-1" uid="PSFMR12-30-1" entityUid="PSFMR12-30*:*Default">
+<Transform>
+<Rotation>-0.087798489251538062 0.38752122546674284 0.91767027035744253 -0.99613289575519204 -0.037177661429519518 -0.079605750326265018 0.0032679166946508603 -0.92111080837399029 0.38928678299820407</Rotation>
+<Translation>0.064961119393390443 0.63789381253505106 0.068484281779501444</Translation>
+</Transform>
+</Instance>
+<Instance name="UNCA12-1" uid="UNCA12-1" entityUid="UNCA12">
+<Transform>
+<Rotation>-0.070102048780626314 -0.98613802634978409 0.15039114250417529 -0.99069774097808694 0.08645293221160831 0.105089849809248 -0.11663485232842688 -0.1416251513643233 -0.98302524266844671</Rotation>
+<Translation>0.06034624112241796 0.59634300732285095 0.075253686751784774</Translation>
+</Transform>
+<Instance name="12-1" uid="12-1" entityUid="12*:*Default">
+<Transform>
+<Rotation>0.99920937792996078 -1.0685896612017132e-15 0.039757000098357281 0.039757000098357323 -6.6613381477509392e-16 -0.99920937792996056 1.124100812432971e-15 0.99999999999999989 -3.8857805861880479e-16</Rotation>
+<Translation>0.018485373491746726 0.00073550450184861615 0.0067499999999929422</Translation>
+</Transform>
+</Instance>
+<Instance name="12-5-2" uid="12-5-2" entityUid="12-5*:*Default">
+<Transform>
+<Rotation>-2.3592239273284576e-16 -0.1211000161154218 -0.99264031053390356 1 -1.4432899320127035e-15 0 -1.6653345369377348e-15 -0.99264031053390345 0.12110001611542179</Rotation>
+<Translation>-0.017152845583754517 1.7763568394002505e-15 0.018916753403686565</Translation>
+</Transform>
+</Instance>
+<Instance name="12-2" uid="12-2" entityUid="12*:*Default">
+<Transform>
+<Rotation>-0.99264031053390334 4.8572257327350599e-16 -0.12110001611542347 6.106226635438361e-16 1 -1.3322676295501878e-15 0.12110001611542341 -1.609823385706477e-15 -0.99264031053390345</Rotation>
+<Translation>-0.01836384574490868 -4.2743586448068527e-15 0.0089903502983479516</Translation>
+</Transform>
+</Instance>
+<Instance name="12-5-1" uid="12-5-1" entityUid="12-5*:*Default">
+<Transform>
+<Rotation>-1.3600232051658168e-15 0.039757000098357823 0.99920937792996056 -1.9984014443252818e-15 -0.99920937792996067 0.039757000098357816 0.99999999999999989 -1.9427510213370538e-15 1.4383983872226455e-15</Rotation>
+<Translation>0.018087803490770438 0.010727598281139616 0.0067499999999979243</Translation>
+</Transform>
+</Instance>
+<Instance name="B_UNCA12-1" uid="B_UNCA12-1" grounded="true" entityUid="B_UNCA12*:*Default">
+<Transform>
+<Rotation>0.99999999999999989 0 0 0 -1 -1.6653345369377346e-16 0 1.6653345369377348e-16 -0.99999999999999989</Rotation>
+<Translation>-0.025999999999999912 0 0.0067500000000000199</Translation>
+</Transform>
+</Instance>
+<Instance name="L_UNCA12-1" uid="L_UNCA12-1" entityUid="L_UNCA12*:*Default">
+<Transform>
+<Rotation>-0.99920937792996078 -0.039757000098356879 2.0806090419054129e-15 -0.039757000098356879 0.9992093779299609 2.8605379398740167e-15 -2.1926904736346842e-15 2.7755575615628921e-15 -1</Rotation>
+<Translation>0.025979443826221083 0.0010336820025876325 0.0067499999999944549</Translation>
+</Transform>
+</Instance>
+<Instance name="L_UNCA12-2" uid="L_UNCA12-2" entityUid="L_UNCA12*:*Default">
+<Transform>
+<Rotation>0.99264031053390356 0.12110001611542344 -6.3304827700193927e-16 -7.5286998857393457e-16 9.4368957093138306e-16 -1.0000000000000002 -0.12110001611542345 0.99264031053390345 1.0279168764860563e-15</Rotation>
+<Translation>-0.025808648073917251 -2.4424906541753444e-15 0.0098986004192153365</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="RSD212B-C1-N-1-150-1" uid="RSD212B-C1-N-1-150-1" entityUid="RSD212B-C1-N-1-150">
+<Transform>
+<Rotation>0.10925251416428904 -0.99401402814486561 -2.4702462297909733e-14 0.98647736424489152 0.10842415615709161 -0.12290895896587105 0.12217322939676015 0.013428112780312473 0.99241795016309842</Rotation>
+<Translation>0.050092277744518271 0.49529987150628935 0.056016425678537402</Translation>
+</Transform>
+<Instance name="RSD212B-150_b-1" uid="RSD212B-150_b-1" grounded="true" entityUid="RSD212B-150_b*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="RSD212-150_rod-1" uid="RSD212-150_rod-1" entityUid="RSD212-150_rod*:*Default">
+<Transform>
+<Rotation>1 2.6367796834847438e-16 1.9428902930940276e-16 2.6367796834847468e-16 -1 -1.3877787807814457e-15 1.9428902930940239e-16 1.3877787807814457e-15 -1</Rotation>
+<Translation>0.056647315884655158 3.1696867353048219e-14 6.9437511296399634e-14</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Bracket1-1" uid="Bracket1-1" entityUid="Bracket1*:*Default">
+<Transform>
+<Rotation>-0.99401402814486506 0.10925251416429341 2.4646951146678475e-14 0.10842415615709591 0.98647736424489108 0.12290895896587106 0.013428112780313195 0.12217322939676013 -0.99241795016309808</Rotation>
+<Translation>0.0052441206800764584 0.090350913483762174 0.0058643150111600401</Translation>
+</Transform>
+</Instance>
+<Instance name="FXFB12-12-F20-M8-2" uid="FXFB12-12-F20-M8-2" entityUid="FXFB12-12-F20-M8*:*Default">
+<Transform>
+<Rotation>0 0 -0.99999999999999978 1 0 0 0 -0.99999999999999978 0</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="FXFB12-12-F20-M8-3" uid="FXFB12-12-F20-M8-3" entityUid="FXFB12-12-F20-M8*:*Default">
+<Transform>
+<Rotation>-0.1092525141642908 -0.9940140281448655 2.4424906541753444e-15 -0.98647736424489141 0.10842415615709061 0.12290895896587364 -0.12217322939676031 0.013428112780335011 -0.99241795016309819</Rotation>
+<Translation>0.0046978581092548266 0.085418526662537006 0.005253448864172991</Translation>
+</Transform>
+</Instance>
+<Instance name="SBGTN6901ZZ-1" uid="SBGTN6901ZZ-1" entityUid="SBGTN6901ZZ" rigid="true">
+<Transform>
+<Rotation>-0.087798489251537243 0.14079495115983559 0.98613802634978376 -0.99613289575519215 -0.015657091249347829 -0.086452932211609129 0.0032679166946522481 -0.98991496464166517 0.14162515136432408</Rotation>
+<Translation>0.064609925436474674 0.63390928095202503 0.068497353446252532</Translation>
+</Transform>
+<Instance name="SBGTN6901ZZ_h-1" uid="SBGTN6901ZZ_h-1" grounded="true" entityUid="SBGTN6901ZZ_h*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="bearing_6901-1" uid="bearing_6901-1" entityUid="bearing_6901*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0040000000000000036 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="Base-1" uid="Base-1" entityUid="Base*:*Default">
+<Transform>
+<Rotation>-1 0 1.6653345369377348e-16 0 -1 0 1.6653345369377348e-16 0 1</Rotation>
+<Translation>0 0.02 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Arm-8" uid="Arm-8" entityUid="Arm">
+<Transform>
+<Rotation>0.8660254037844386 -1.0862892923007757e-16 0.50000000000000044 0 1 1.3874616451834277e-16 -0.50000000000000044 0 0.8660254037844386</Rotation>
+<Translation>-0.27084936490538913 0.0099999999999999811 0.11596043489469163</Translation>
+</Transform>
+<Instance name="UNCA12-1" uid="UNCA12-1" entityUid="UNCA12">
+<Transform>
+<Rotation>-0.060398704467044581 -0.98861124283500001 -0.13783978757579113 0.99793562772383426 -0.056785904877129409 -0.029997398665925473 0.021828408511374953 -0.13936703895657043 0.99000017627995318</Rotation>
+<Translation>0.098637602312602379 0.56721635974415885 0.022799302284039438</Translation>
+</Transform>
+<Instance name="L_UNCA12-2" uid="L_UNCA12-2" entityUid="L_UNCA12*:*Default">
+<Transform>
+<Rotation>-0.99527482633657627 -0.097097992052864443 8.1007587217951648e-16 -7.1644079557842153e-16 -9.9920072216264069e-16 -1 0.097097992052864471 -0.99527482633657616 9.2491436255038245e-16</Rotation>
+<Translation>0.025877145484727859 -6.564193633096238e-14 0.0042254522068415207</Translation>
+</Transform>
+</Instance>
+<Instance name="12-5-2" uid="12-5-2" entityUid="12-5*:*Default">
+<Transform>
+<Rotation>0 0.097097992052863777 0.99527482633657627 1 9.9279494356296069e-16 -1.1428564984271181e-16 -9.9920072216264069e-16 0.99527482633657627 -0.097097992052863777</Rotation>
+<Translation>0.017441604366679964 -6.0396132539608516e-14 -0.0049990611161311177</Translation>
+</Transform>
+</Instance>
+<Instance name="B_UNCA12-1" uid="B_UNCA12-1" grounded="true" entityUid="B_UNCA12*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -1 0 0 0 -1</Rotation>
+<Translation>-0.025999999999999912 0 0.0067499999999999782</Translation>
+</Transform>
+</Instance>
+<Instance name="12-2" uid="12-2" entityUid="12*:*Default">
+<Transform>
+<Rotation>0.99527482633657627 -5.9904649808177593e-16 0.097097992052864346 5.0480453150925096e-16 1 9.9515194503076228e-16 -0.097097992052864346 -9.4143417288026274e-16 0.99527482633657627</Rotation>
+<Translation>0.018412584287206268 -6.7973404682675209e-14 0.0049536871472354166</Translation>
+</Transform>
+</Instance>
+<Instance name="12-5-1" uid="12-5-1" entityUid="12-5*:*Default">
+<Transform>
+<Rotation>-9.5062846483529029e-16 0.24437087208377706 -0.96968184312021344 -1.7208456881689926e-15 0.96968184312021366 0.24437087208377706 1 1.8873791418627661e-15 -4.9960036108132044e-16</Rotation>
+<Translation>-0.020382822818519108 -0.0051759572976560475 0.006750000000034756</Translation>
+</Transform>
+</Instance>
+<Instance name="12-1" uid="12-1" entityUid="12*:*Default">
+<Transform>
+<Rotation>-0.96968184312021333 -4.5052825277034398e-16 0.24437087208377731 0.24437087208377731 -1.5889651900231658e-15 0.96968184312021333 0 1 1.6508866761433928e-15</Rotation>
+<Translation>-0.017939114097679565 0.0045208611335509907 0.0067500000000374205</Translation>
+</Transform>
+</Instance>
+<Instance name="L_UNCA12-1" uid="L_UNCA12-1" entityUid="L_UNCA12*:*Default">
+<Transform>
+<Rotation>0.96968184312021333 -0.24437087208377709 -2.8954287464181242e-16 -0.24437087208377709 -0.96968184312021344 0 -2.7061686225238191e-16 1.1102230246251563e-16 -0.99999999999999989</Rotation>
+<Translation>-0.025211727921079286 0.0063536426741765961 0.0067500000000366711</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Bracket1-1" uid="Bracket1-1" entityUid="Bracket1*:*Default">
+<Transform>
+<Rotation>-0.98310914083058099 0.18302026449373535 6.501743587961073e-15 0.18273128823093354 0.98155687990346574 0.056172660749127475 0.010280735227615799 0.055223856247243602 -0.99842106958154841</Rotation>
+<Translation>0.0087849726956775176 0.090114730235363621 0.0026507450998370236</Translation>
+</Transform>
+</Instance>
+<Instance name="PSFMR12-30-1" uid="PSFMR12-30-1" entityUid="PSFMR12-30*:*Default">
+<Transform>
+<Rotation>0.046729343500790853 -0.39422221196305973 -0.91782635397494328 -0.99613289575519193 0.05004667671205542 -0.072212077552545287 0.074401763758400935 0.91765144676234867 -0.39035906522662911</Rotation>
+<Translation>0.095791280662929024 0.60785532602910541 0.026431331159935886</Translation>
+</Transform>
+</Instance>
+<Instance name="SBGTN6901ZZ-1" uid="SBGTN6901ZZ-1" entityUid="SBGTN6901ZZ" rigid="true">
+<Transform>
+<Rotation>0.046729343500789548 0.14305306356811109 0.98861124283500001 -0.99613289575519193 -0.067041889902220486 0.05678590487712961 0.074401763758402184 -0.98744174815637442 0.13936703895657104</Rotation>
+<Translation>0.095978198036978657 0.6038707944460906 0.026728938215017858</Translation>
+</Transform>
+<Instance name="SBGTN6901ZZ_h-1" uid="SBGTN6901ZZ_h-1" grounded="true" entityUid="SBGTN6901ZZ_h*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="bearing_6901-1" uid="bearing_6901-1" entityUid="bearing_6901*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0040000000000000036 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="RSD212B-C1-N-1-150-1" uid="RSD212B-C1-N-1-150-1" entityUid="RSD212B-C1-N-1-150">
+<Transform>
+<Rotation>0.18302026449373987 -0.98310914083058032 -6.0507154842071031e-15 0.98155687990346496 0.18273128823093798 -0.056172660749126982 0.055223856247242992 0.010280735227616411 0.99842106958154875</Rotation>
+<Translation>0.083914791270359529 0.4930438294357361 0.025320138089327773</Translation>
+</Transform>
+<Instance name="RSD212B-150_b-1" uid="RSD212B-150_b-1" grounded="true" entityUid="RSD212B-150_b*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="RSD212-150_rod-1" uid="RSD212-150_rod-1" entityUid="RSD212-150_rod*:*Default">
+<Transform>
+<Rotation>0.99999999999999978 -3.9551695252271202e-16 8.1185058675714572e-16 -4.163336342344337e-16 -1 2.6090241078691179e-15 8.1185058675714572e-16 -2.7755575615628914e-15 -0.99999999999999989</Rotation>
+<Translation>0.028859919921085331 4.7739590058881731e-15 -3.4111602431607935e-14</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="FXFB12-12-F20-M8-2" uid="FXFB12-12-F20-M8-2" entityUid="FXFB12-12-F20-M8*:*Default">
+<Transform>
+<Rotation>0 -1.6653345369377348e-16 -1.0000000000000002 1 0 0 0 -1.0000000000000002 1.6653345369377348e-16</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="UNCA12-2" uid="UNCA12-2" entityUid="UNCA12">
+<Transform>
+<Rotation>-1.5265566588595902e-16 9.4368957093138286e-16 -1 0.9984210695815483 0.056172660749131 0 0.056172660749130993 -0.99842106958154841 -9.5077462569350835e-16</Rotation>
+<Translation>0.0067499999999809934 0.042999999999992156 -1.840194663316197e-14</Translation>
+</Transform>
+<Instance name="B_UNCA12-1" uid="B_UNCA12-1" grounded="true" entityUid="B_UNCA12*:*Default">
+<Transform>
+<Rotation>0.99999999999999989 0 0 0 -1.0000000000000002 0 0 0 -1</Rotation>
+<Translation>-0.025999999999999992 0 0.0067500000000000338</Translation>
+</Transform>
+</Instance>
+<Instance name="L_UNCA12-2" uid="L_UNCA12-2" entityUid="L_UNCA12*:*Default">
+<Transform>
+<Rotation>-0.98310914083058021 -0.18302026449373859 2.9143354396410359e-16 -8.7430063189231078e-16 3.219646771412954e-15 -1 0.18302026449373857 -0.98310914083058054 -3.2751579226442118e-15</Rotation>
+<Translation>0.025560837661607758 6.3421490281712067e-15 0.0019914731231609473</Translation>
+</Transform>
+</Instance>
+<Instance name="12-1" uid="12-1" entityUid="12*:*Default">
+<Transform>
+<Rotation>-0.9984210695815483 1.0581813203458523e-15 -0.056172660749129182 -0.056172660749129209 1.1879386363489175e-14 0.99842106958154853 1.7198641356198616e-15 0.99999999999999989 -1.1768364061026659e-14</Rotation>
+<Translation>-0.01847078978728154 -0.0010391942238271584 0.0067499999999615645</Translation>
+</Transform>
+</Instance>
+<Instance name="12-5-1" uid="12-5-1" entityUid="12-5*:*Default">
+<Transform>
+<Rotation>7.6674777638174874e-16 -0.056172660749128807 -0.99842106958154819 1.1601830607332886e-14 0.99842106958154864 -0.056172660749128842 1 -1.1546319456101628e-14 1.419344499177158e-15</Rotation>
+<Translation>-0.017909063179795959 -0.011023404919646221 0.0067499999999581228</Translation>
+</Transform>
+</Instance>
+<Instance name="12-5-2" uid="12-5-2" entityUid="12-5*:*Default">
+<Transform>
+<Rotation>1.5057399771478686e-15 0.18302026449373851 0.98310914083058032 1 -8.0795943165437945e-15 0 7.9380946260698693e-15 0.98310914083058032 -0.18302026449373851</Rotation>
+<Translation>0.016357316460441848 6.8695049648681561e-15 -0.0064669663014411127</Translation>
+</Transform>
+</Instance>
+<Instance name="12-2" uid="12-2" entityUid="12*:*Default">
+<Transform>
+<Rotation>0.98310914083058043 1.668073544054506e-16 0.18302026449373821 7.7021722333370255e-16 1 -5.048702938146918e-15 -0.18302026449373821 5.1043913677626113e-15 0.98310914083058043</Rotation>
+<Translation>0.018187519105378316 6.8556271770603416e-15 0.0033641251068644018</Translation>
+</Transform>
+</Instance>
+<Instance name="L_UNCA12-1" uid="L_UNCA12-1" entityUid="L_UNCA12*:*Default">
+<Transform>
+<Rotation>0.9984210695815483 0.056172660749129896 -2.2759572004815709e-15 0.05617266074912991 -0.99842106958154841 8.8817841970012523e-15 -1.7716752913558776e-15 -8.992806499463768e-15 -1</Rotation>
+<Translation>-0.025958947808342715 -0.0014604891865403064 0.0067499999960988211</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="FXFB12-12-F20-M8-3" uid="FXFB12-12-F20-M8-3" entityUid="FXFB12-12-F20-M8*:*Default">
+<Transform>
+<Rotation>-0.18302026449373862 -0.98310914083058054 -5.773159728050814e-15 -0.98155687990346518 0.18273128823093607 0.056172660749129785 -0.055223856247243616 0.010280735227628401 -0.9984210695815483</Rotation>
+<Translation>0.0078698713732122672 0.085206945835844997 0.002374625818612322</Translation>
+</Transform>
+</Instance>
+<Instance name="Bracket2-1" uid="Bracket2-1" entityUid="Bracket2*:*Default">
+<Transform>
+<Rotation>-0.98310914083058087 0.18302026449373582 7.0429773124658368e-16 0.18273128823093365 0.98155687990346574 0.056172660749128085 0.010280735227621624 0.055223856247243137 -0.99842106958154841</Rotation>
+<Translation>0.0078698713732098247 0.085206945835846051 0.0023746258186036345</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Arm-9" uid="Arm-9" entityUid="Arm">
+<Transform>
+<Rotation>-4.4408920985006262e-16 0 -1 0 1 0 1 0 -4.4408920985006262e-16</Rotation>
+<Translation>0.035000000000000066 0.010000000000000002 -0.29254264805429414</Translation>
+</Transform>
+<Instance name="UNCA12-2" uid="UNCA12-2" entityUid="UNCA12">
+<Transform>
+<Rotation>1.2893219219726221e-16 0 -1 0.99950703195204749 0.031395749368485076 1.2640307839719745e-16 0.031395749368485076 -0.99950703195204749 0</Rotation>
+<Translation>0.0067499999999946492 0.043000000000003688 0</Translation>
+</Transform>
+<Instance name="12-5-2" uid="12-5-2" entityUid="12-5*:*Default">
+<Transform>
+<Rotation>6.3837823915946481e-16 0.085244108942096886 0.99636009649657653 1 -2.1842728002840934e-15 -4.4759459542915739e-16 2.1374651448695418e-15 0.99636009649657675 -0.085244108942096858</Rotation>
+<Translation>0.017580220695771885 -5.0716375543657932e-14 -0.0047906169804138865</Translation>
+</Transform>
+</Instance>
+<Instance name="L_UNCA12-1" uid="L_UNCA12-1" entityUid="L_UNCA12*:*Default">
+<Transform>
+<Rotation>0.9995070319520476 0.031395749368483147 0 0.031395749368483147 -0.9995070319520476 0 0 0 -0.99999999999999989</Rotation>
+<Translation>-0.025987182376798264 -0.00081628996196181358 0.0067500126508616143</Translation>
+</Transform>
+</Instance>
+<Instance name="B_UNCA12-1" uid="B_UNCA12-1" grounded="true" entityUid="B_UNCA12*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -1 0 0 0 -1</Rotation>
+<Translation>-0.026000000000000002 0 0.0067499999999999782</Translation>
+</Transform>
+</Instance>
+<Instance name="12-5-1" uid="12-5-1" entityUid="12-5*:*Default">
+<Transform>
+<Rotation>0 -0.031395749368482419 -0.9995070319520476 0 0.9995070319520476 -0.031395749368482419 1 0 0</Rotation>
+<Translation>-0.018176922112694234 -0.010575892193653756 0.0067500126435842689</Translation>
+</Transform>
+</Instance>
+<Instance name="12-1" uid="12-1" entityUid="12*:*Default">
+<Transform>
+<Rotation>-0.9995070319520476 0 -0.031395749368482419 -0.031395749368482419 0 0.9995070319520476 0 1 0</Rotation>
+<Translation>-0.018490879151730415 -0.00058082235324655174 0.0067500118887048877</Translation>
+</Transform>
+</Instance>
+<Instance name="L_UNCA12-2" uid="L_UNCA12-2" entityUid="L_UNCA12*:*Default">
+<Transform>
+<Rotation>-0.99636009649657709 -0.085244108942092639 0 0 0 -1 0.085244108942092611 -0.99636009649657731 0</Rotation>
+<Translation>0.02590536250891292 -5.2055582067112027e-14 0.0045336531674935454</Translation>
+</Transform>
+</Instance>
+<Instance name="12-2" uid="12-2" entityUid="12*:*Default">
+<Transform>
+<Rotation>0.9963600964965772 3.4000580129145424e-16 0.085244108942091709 -3.6432786858227253e-16 1.0000000000000002 0 -0.085244108942091723 0 0.99636009649657742</Rotation>
+<Translation>0.018432661785173714 -3.7199410218846651e-14 0.0051729839845573999</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Bracket1-1" uid="Bracket1-1" entityUid="Bracket1*:*Default">
+<Transform>
+<Rotation>-0.99636009649657709 0.085244108942095539 2.3882832560565004e-14 0.085202086320111656 0.99586892280474937 0.031395749368483737 0.0026763026794619483 0.031281471870366839 -0.9995070319520476</Rotation>
+<Translation>0.004091717229227021 0.090801708294576219 0.0015015106497745651</Translation>
+</Transform>
+</Instance>
+<Instance name="PSFMR12-30-1" uid="PSFMR12-30-1" entityUid="PSFMR12-30*:*Default">
+<Transform>
+<Rotation>0.041069145750750678 -0.3661572612410971 -0.92964626891507651 -0.99613289575519204 -0.087332243049857053 -0.0096090227524226659 -0.077669680453053766 0.92644586423832676 -0.3683279535604389</Rotation>
+<Translation>0.043237892787104382 0.60864196799979653 0.019669088867237935</Translation>
+</Transform>
+</Instance>
+<Instance name="SBGTN6901ZZ-1" uid="SBGTN6901ZZ-1" entityUid="SBGTN6901ZZ" rigid="true">
+<Transform>
+<Rotation>0.041069145750750526 0.13978213905849077 0.98933021730236081 -0.99613289575519204 0.08269898115158042 0.029667027334505533 -0.077669680453053003 -0.98672277368910633 0.14263796346554217</Rotation>
+<Translation>0.043402169370153093 0.60465743641677494 0.019358410145451824</Translation>
+</Transform>
+<Instance name="SBGTN6901ZZ_h-1" uid="SBGTN6901ZZ_h-1" grounded="true" entityUid="SBGTN6901ZZ_h*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="bearing_6901-1" uid="bearing_6901-1" entityUid="bearing_6901*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0040000000000001146 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="UNCA12-1" uid="UNCA12-1" entityUid="UNCA12">
+<Transform>
+<Rotation>-0.032059468755853429 -0.98933021730236081 -0.14211935686441901 0.99938072812223855 -0.029667027334509311 -0.018921621151418471 0.014503472720586181 -0.14263796346554131 0.98966866205687565</Rotation>
+<Translation>0.04588103342167682 0.56792824021658761 0.0098043684997877467</Translation>
+</Transform>
+<Instance name="12-5-1" uid="12-5-1" entityUid="12-5*:*Default">
+<Transform>
+<Rotation>2.0816681711721685e-16 0.11834096881965392 -0.99297301831360218 2.1371793224034263e-15 0.99297301831360218 0.11834096881965391 1 -2.1649348980190553e-15 0</Rotation>
+<Translation>-0.0195534105270464 -0.0077404222600586658 0.0067499999999725141</Translation>
+</Transform>
+</Instance>
+<Instance name="12-1" uid="12-1" entityUid="12*:*Default">
+<Transform>
+<Rotation>-0.9929730183136023 1.6132928326584306e-16 0.11834096881965397 0.11834096881965397 2.7755575615628914e-16 0.9929730183136023 1.214306433183765e-16 1.0000000000000002 -2.7755575615628914e-16</Rotation>
+<Translation>-0.018370000838848322 0.002189307923072592 0.0067499999999726217</Translation>
+</Transform>
+</Instance>
+<Instance name="B_UNCA12-1" uid="B_UNCA12-1" grounded="true" entityUid="B_UNCA12*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -1 0 0 0 -1.0000000000000002</Rotation>
+<Translation>-0.025999999999999912 0 0.0067499999999999991</Translation>
+</Transform>
+</Instance>
+<Instance name="L_UNCA12-2" uid="L_UNCA12-2" entityUid="L_UNCA12*:*Default">
+<Transform>
+<Rotation>-0.99795915375303101 0.063855520047480407 1.7387665214588049e-15 -1.713906794265085e-15 4.4408920985006257e-16 -0.99999999999999989 -0.063855520047480407 -0.99795915375303101 -3.3374048239211364e-16</Rotation>
+<Translation>0.025946937997515351 -6.7723604502134549e-15 0.0084102435214424287</Translation>
+</Transform>
+</Instance>
+<Instance name="12-5-2" uid="12-5-2" entityUid="12-5*:*Default">
+<Transform>
+<Rotation>-1.2281842209915794e-15 -0.06385552004748006 0.99795915375303101 1 -2.2204460492503131e-15 1.0824674490095276e-15 2.1649348980190553e-15 0.99795915375303101 0.06385552004748006</Rotation>
+<Translation>0.01910079954484889 -3.6082248300317588e-15 -0.0020482644164340619</Translation>
+</Transform>
+</Instance>
+<Instance name="12-2" uid="12-2" entityUid="12*:*Default">
+<Transform>
+<Rotation>0.99795915375303124 -1.3045120539345589e-15 -0.063855520047480172 1.1587952819525071e-15 1 -2.2759572004815709e-15 0.063855520047480144 2.2204460492503131e-15 0.99795915375303124</Rotation>
+<Translation>0.018462244344368384 -5.8564264548977008e-15 0.0079313271210874683</Translation>
+</Transform>
+</Instance>
+<Instance name="L_UNCA12-1" uid="L_UNCA12-1" entityUid="L_UNCA12*:*Default">
+<Transform>
+<Rotation>0.99297301831360274 -0.11834096881965114 -9.8879238130678004e-16 -0.11834096881965112 -0.99297301831360263 2.7755575615628914e-16 -1.0113437864944785e-15 -1.3877787807814457e-16 -1</Rotation>
+<Translation>-0.025817298476204842 0.0030768651892204013 0.0067499999999707586</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="FXFB12-12-F20-M8-2" uid="FXFB12-12-F20-M8-2" entityUid="FXFB12-12-F20-M8*:*Default">
+<Transform>
+<Rotation>0 -1.1102230246251565e-16 -1 1 0 0 0 -1 1.1102230246251565e-16</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="RSD212B-C1-N-1-150-1" uid="RSD212B-C1-N-1-150-1" entityUid="RSD212B-C1-N-1-150">
+<Transform>
+<Rotation>0.085244108942092903 -0.99636009649657709 -2.3535562604717897e-14 0.9958689228047497 0.085202086320109061 -0.031395749368481468 0.031281471870364543 0.0026763026794619903 0.9995070319520476</Rotation>
+<Translation>0.039084423949946434 0.49960590110592851 0.014342554852565154</Translation>
+</Transform>
+<Instance name="RSD212-150_rod-1" uid="RSD212-150_rod-1" entityUid="RSD212-150_rod*:*Default">
+<Transform>
+<Rotation>1 -1.7486012637845981e-15 8.2855058440244725e-16 -1.7486012637846208e-15 -1 2.7300986874382351e-14 8.2855058440239952e-16 -2.7300986874382351e-14 -1</Rotation>
+<Translation>0.021977504023100225 -6.7112981838590713e-14 2.4501234374696423e-14</Translation>
+</Transform>
+</Instance>
+<Instance name="RSD212B-150_b-1" uid="RSD212B-150_b-1" grounded="true" entityUid="RSD212B-150_b*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="FXFB12-12-F20-M8-3" uid="FXFB12-12-F20-M8-3" entityUid="FXFB12-12-F20-M8*:*Default">
+<Transform>
+<Rotation>-0.085244108942093652 -0.99636009649657709 -1.6535133733331457e-15 -0.99586892280474937 0.085202086320108977 0.031395749368484653 -0.031281471870365583 0.002676302679487421 -0.99950703195204738</Rotation>
+<Translation>0.0036654966845143244 0.085822363680551447 0.001345103290422027</Translation>
+</Transform>
+</Instance>
+<Instance name="Bracket2-1" uid="Bracket2-1" entityUid="Bracket2*:*Default">
+<Transform>
+<Rotation>-0.99636009649657709 0.085244108942095526 1.8778273207231688e-14 0.085202086320111489 0.99586892280474926 0.0313957493684838 0.0026763026794670353 0.031281471870366465 -0.99950703195204749</Rotation>
+<Translation>0.0036654966845176551 0.085822363680552502 0.0013451032904229013</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="3leg platform-1" uid="3leg platform-1" entityUid="3leg platform*:*Default">
+<Transform>
+<Rotation>-0.78320800677461988 0.0776696804530531 -0.61688948674981314 -0.086452932211610614 -0.99613289575519226 -0.015657091249344859 -0.61571999207118644 0.041069145750749159 0.78689403138615943</Rotation>
+<Translation>0.017774458419178438 0.6331110333334139 -0.024724422656003907</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm-7</Uid>
+<Uid>FXFB12-12-F20-M8-2</Uid>
+</InstancePath>
+<Position>0.032000000000000001 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>-0.23584936490538899 0.01 0.17658221315960246</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm-7</Uid>
+<Uid>FXFB12-12-F20-M8-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0 0.01 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm-8</Uid>
+<Uid>FXFB12-12-F20-M8-2</Uid>
+</InstancePath>
+<Position>0.032000000000000001 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0.27084936490538913 0.01 0.11596043489469157</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm-8</Uid>
+<Uid>FXFB12-12-F20-M8-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0 0.01 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm-9</Uid>
+<Uid>FXFB12-12-F20-M8-2</Uid>
+</InstancePath>
+<Position>0.032000000000000001 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>-0.0350000000000001 0.01 -0.29254264805429414</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm-9</Uid>
+<Uid>FXFB12-12-F20-M8-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0 0.01 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>leg3StewartPlatform</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>leg3StewartPlatform</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric7">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>leg3StewartPlatform</Uid>
+</InstancePath>
+<Position>-0.20998376554936554 0.57423136365959027 0.14180652285025297</Position>
+<Axis>-2.0114465648646279e-13 0.9377526563346481 0.34730383749292432</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>3leg platform-1</Uid>
+</InstancePath>
+<Position>0.080819664722026507 0.0050000000000001155 0.20998376554919862</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident16">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>leg3StewartPlatform</Uid>
+</InstancePath>
+<Position>-0.20998376554937198 0.60423944866229895 0.15292024565002654</Position>
+<Axis>-2.0114465648646279e-13 0.9377526563346481 0.34730383749292432</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>3leg platform-1</Uid>
+</InstancePath>
+<Position>0.080819664722026507 0.0050000000000001155 0.20998376554919862</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric11">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>leg3StewartPlatform</Uid>
+</InstancePath>
+<Position>0.034999999999759689 0.46897024832405504 0.42602132228131823</Position>
+<Axis>-2.0103363418400022e-13 0.93775265633464799 0.34730383749292426</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>3leg platform-1</Uid>
+</InstancePath>
+<Position>-0.22226110770891847 0.0050000000000000044 -0.034999999999985903</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident19">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>leg3StewartPlatform</Uid>
+</InstancePath>
+<Position>0.034999999999753256 0.49897833332676378 0.4371350450810918</Position>
+<Axis>-2.0103363418400022e-13 0.93775265633464799 0.34730383749292426</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>3leg platform-1</Uid>
+</InstancePath>
+<Position>-0.22226110770891847 0.0050000000000000044 -0.034999999999985903</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric13">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>leg3StewartPlatform</Uid>
+</InstancePath>
+<Position>0.17498376554814229 0.59528553988671939 0.084958289250793351</Position>
+<Axis>-2.0101434765252618e-13 0.9377526563346481 0.34730383749292426</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>3leg platform-1</Uid>
+</InstancePath>
+<Position>0.14144144298691969 0.0050000000000001155 -0.1749837655492017</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident21">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>leg3StewartPlatform</Uid>
+</InstancePath>
+<Position>0.17498376554813586 0.62529362488942808 0.096072012050566924</Position>
+<Axis>-2.0101434765252618e-13 0.9377526563346481 0.34730383749292426</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>3leg platform-1</Uid>
+</InstancePath>
+<Position>0.14144144298691969 0.0050000000000001155 -0.1749837655492017</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident25">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0 0.02 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>leg3StewartPlatform</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric14">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm-7</Uid>
+<Uid>FXFB12-12-F20-M8-2</Uid>
+</InstancePath>
+<Position>0.01 0 0.013000000000000012</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>-0.24710769515458667 0.01 0.18308221315960246</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric16">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm-9</Uid>
+<Uid>FXFB12-12-F20-M8-2</Uid>
+</InstancePath>
+<Position>0.010000000000000002 0.012999999999999998 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>-0.048000000000000098 0.01 -0.29254264805429414</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric18">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm-8</Uid>
+<Uid>FXFB12-12-F20-M8-2</Uid>
+</InstancePath>
+<Position>0.0099999999999999985 0.013000000000000025 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0.27734936490538914 0.01 0.10470210464549386</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric22">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm-8</Uid>
+<Uid>SBGTN6901ZZ-1</Uid>
+<Uid>SBGTN6901ZZ_h-1</Uid>
+</InstancePath>
+<Position>0.0040000000000000036 0.016500000000000001 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>3leg platform-1</Uid>
+</InstancePath>
+<Position>0.095110940435271796 0.0050000000000000044 0.20173698119119404</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric23">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm-8</Uid>
+<Uid>SBGTN6901ZZ-1</Uid>
+<Uid>SBGTN6901ZZ_h-1</Uid>
+</InstancePath>
+<Position>0.0040000000000000036 -0.016500000000000008 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>3leg platform-1</Uid>
+</InstancePath>
+<Position>0.066532102110390026 0.0050000000000001155 0.21823698119120233</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident27">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm-8</Uid>
+<Uid>SBGTN6901ZZ-1</Uid>
+<Uid>SBGTN6901ZZ_h-1</Uid>
+</InstancePath>
+<Position>-0.0040000000000000036 1.366962099069724e-15 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>3leg platform-1</Uid>
+</InstancePath>
+<Position>0.080819664722026507 0.0050000000000001155 0.20998376554919862</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric25">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm-9</Uid>
+<Uid>SBGTN6901ZZ-1</Uid>
+<Uid>SBGTN6901ZZ_h-1</Uid>
+</InstancePath>
+<Position>0.0040000000000000036 -0.016499999999999994 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>3leg platform-1</Uid>
+</InstancePath>
+<Position>0.15573271870094296 0.0050000000000001155 -0.16673698119075842</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric26">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm-9</Uid>
+<Uid>SBGTN6901ZZ-1</Uid>
+<Uid>SBGTN6901ZZ_h-1</Uid>
+</InstancePath>
+<Position>0.0039999999999998925 0.016500000000000008 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>3leg platform-1</Uid>
+</InstancePath>
+<Position>0.12715388037605707 0.0050000000000001155 -0.18323698119075943</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident28">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm-9</Uid>
+<Uid>SBGTN6901ZZ-1</Uid>
+<Uid>SBGTN6901ZZ_h-1</Uid>
+</InstancePath>
+<Position>-0.0040000000000001146 1.3739009929736312e-15 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>3leg platform-1</Uid>
+</InstancePath>
+<Position>0.14144144298691969 0.0050000000000001155 -0.1749837655492017</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric29">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm-7</Uid>
+<Uid>SBGTN6901ZZ-1</Uid>
+<Uid>SBGTN6901ZZ_h-1</Uid>
+</InstancePath>
+<Position>0.0040000000000000036 -0.016500000000000015 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>3leg platform-1</Uid>
+</InstancePath>
+<Position>-0.22226482081198892 0.0050000000000000044 -0.05149999999998589</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric30">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm-7</Uid>
+<Uid>SBGTN6901ZZ-1</Uid>
+<Uid>SBGTN6901ZZ_h-1</Uid>
+</InstancePath>
+<Position>0.0039999999999998925 0.016499999999999973 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>3leg platform-1</Uid>
+</InstancePath>
+<Position>-0.22226482081198892 0.0050000000000001155 -0.018499999999985861</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident30">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm-7</Uid>
+<Uid>SBGTN6901ZZ-1</Uid>
+<Uid>SBGTN6901ZZ_h-1</Uid>
+</InstancePath>
+<Position>-0.0040000000000000036 1.3461454173580023e-15 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>3leg platform-1</Uid>
+</InstancePath>
+<Position>-0.22226110770891847 0.0050000000000000044 -0.034999999999985903</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="Arm" uid="Arm" version="232">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Arm.SLDASM" type="SolidWorks Assembly"/>
+<Constraints>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>UNCA12-1</Uid>
+<Uid>L_UNCA12-1</Uid>
+</InstancePath>
+<Position>0.031800000000000161 0 0</Position>
+<Axis>-1 -1.2490009027033011e-16 -1.8041124150158794e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>RSD212B-C1-N-1-150-1</Uid>
+<Uid>RSD212-150_rod-1</Uid>
+</InstancePath>
+<Position>0.042499999999999982 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>UNCA12-1</Uid>
+<Uid>L_UNCA12-1</Uid>
+</InstancePath>
+<Position>0 0.010499999999999985 0</Position>
+<Axis>-1 -1.2490009027033011e-16 -1.8041124150158794e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>RSD212B-C1-N-1-150-1</Uid>
+<Uid>RSD212-150_rod-1</Uid>
+</InstancePath>
+<Position>0.020499999999999963 0.0085000000000000075 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>FXFB12-12-F20-M8-2</Uid>
+</InstancePath>
+<Position>0.032000000000000001 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>UNCA12-2</Uid>
+<Uid>L_UNCA12-1</Uid>
+</InstancePath>
+<Position>0.031800000000000002 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FXFB12-12-F20-M8-2</Uid>
+</InstancePath>
+<Position>0.032000000000000001 0.0060000000000000001 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>UNCA12-2</Uid>
+<Uid>L_UNCA12-1</Uid>
+</InstancePath>
+<Position>0.014999999999999999 0.012500000000000001 0.022999999999999989</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FXFB12-12-F20-M8-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>UNCA12-2</Uid>
+<Uid>L_UNCA12-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>UNCA12-2</Uid>
+<Uid>L_UNCA12-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FXFB12-12-F20-M8-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>UNCA12-2</Uid>
+<Uid>L_UNCA12-2</Uid>
+</InstancePath>
+<Position>0.031800000000000002 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>FXFB12-12-F20-M8-3</Uid>
+</InstancePath>
+<Position>0.031999999999999994 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>UNCA12-2</Uid>
+<Uid>L_UNCA12-2</Uid>
+</InstancePath>
+<Position>0.014999999999999999 0.012499999999999997 0.022999999999999993</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FXFB12-12-F20-M8-3</Uid>
+</InstancePath>
+<Position>0.031999999999999994 0.0060000000000000019 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>RSD212B-C1-N-1-150-1</Uid>
+<Uid>RSD212B-150_b-1</Uid>
+</InstancePath>
+<Position>-0.37050000000000005 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>FXFB12-12-F20-M8-3</Uid>
+</InstancePath>
+<Position>0.031999999999999994 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FXFB12-12-F20-M8-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FXFB12-12-F20-M8-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FXFB12-12-F20-M8-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bracket1-1</Uid>
+</InstancePath>
+<Position>-0.025000000000000005 0.0050000000000000044 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bracket2-1</Uid>
+</InstancePath>
+<Position>-0.025000000000000001 0.0050000000000000044 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric7">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bracket1-1</Uid>
+</InstancePath>
+<Position>0 0.0050000000000000044 -0.024999999999999994</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bracket2-1</Uid>
+</InstancePath>
+<Position>0 0.0050000000000000044 -0.024999999999999991</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident13">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bracket1-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bracket2-1</Uid>
+</InstancePath>
+<Position>0 0.0049999999999999906 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric8">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>FXFB12-12-F20-M8-3</Uid>
+</InstancePath>
+<Position>0.009999999999999995 -0.012999999999999998 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bracket2-1</Uid>
+</InstancePath>
+<Position>-0.012999999999999994 0.0050000000000000044 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric9">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>FXFB12-12-F20-M8-3</Uid>
+</InstancePath>
+<Position>0.010000000000000009 0 -0.012999999999999998</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bracket2-1</Uid>
+</InstancePath>
+<Position>0 0.0050000000000000044 -0.012999999999999998</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FXFB12-12-F20-M8-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bracket2-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric10">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>RSD212B-C1-N-1-150-1</Uid>
+<Uid>RSD212B-150_b-1</Uid>
+</InstancePath>
+<Position>-0.37050000000000005 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bracket1-1</Uid>
+</InstancePath>
+<Position>0 0.0050000000000000044 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident15">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>RSD212B-C1-N-1-150-1</Uid>
+<Uid>RSD212B-150_b-1</Uid>
+</InstancePath>
+<Position>-0.41049999999999998 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bracket2-1</Uid>
+</InstancePath>
+<Position>0 0.0049999999999999906 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident16">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>RSD212B-C1-N-1-150-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bracket1-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric11">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>PSFMR12-30-1</Uid>
+</InstancePath>
+<Position>0.030000000000000027 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>SBGTN6901ZZ-1</Uid>
+<Uid>bearing_6901-1</Uid>
+</InstancePath>
+<Position>0.0060000000000001164 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident17">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>PSFMR12-30-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SBGTN6901ZZ-1</Uid>
+<Uid>SBGTN6901ZZ_h-1</Uid>
+</InstancePath>
+<Position>-0.0040000000000001146 1.3877787807814457e-15 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric12">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>UNCA12-1</Uid>
+<Uid>L_UNCA12-2</Uid>
+</InstancePath>
+<Position>0.03180000000000005 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>PSFMR12-30-1</Uid>
+</InstancePath>
+<Position>0.030000000000000027 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident18">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>UNCA12-1</Uid>
+<Uid>L_UNCA12-2</Uid>
+</InstancePath>
+<Position>0.015000000000000013 0.012500000000000011 0.022999999999999993</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>PSFMR12-30-1</Uid>
+</InstancePath>
+<Position>0.029999999999999916 0.0054999999999999771 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident19">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>UNCA12-1</Uid>
+<Uid>L_UNCA12-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SBGTN6901ZZ-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 2.7755575615628914e-16 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</Assembly>
+<Assembly name="UNCA12" uid="UNCA12" version="135">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="UNCA12.sldasm" type="SolidWorks Assembly"/>
+<Constraints>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>L_UNCA12-2</Uid>
+</InstancePath>
+<Position>0.0074999999999999997 -0.011499999999999996 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>12-5-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>L_UNCA12-1</Uid>
+</InstancePath>
+<Position>0.0075000000000000032 -0.0115 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>12-5-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>12-5-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>12-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>L_UNCA12-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>12-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>L_UNCA12-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>12-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>L_UNCA12-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>12-5-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>12-5-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>12-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>B_UNCA12-1</Uid>
+</InstancePath>
+<Position>0.032599999999999997 0.0067499999999999999 0.0067499999999999999</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>L_UNCA12-2</Uid>
+</InstancePath>
+<Position>0.014999999999999994 0.022999999999999993 0.0067499999999999982</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>B_UNCA12-1</Uid>
+</InstancePath>
+<Position>0.025999999999999999 -0.0115 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>L_UNCA12-2</Uid>
+</InstancePath>
+<Position>0.025999999999999992 0 -0.011499999999999995</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>12-5-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>12-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>12-5-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>12-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>L_UNCA12-1</Uid>
+</InstancePath>
+<Position>0.0075000000000000032 -0.0115 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>12-5-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>12-5-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>L_UNCA12-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>L_UNCA12-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>12-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>L_UNCA12-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>12-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>B_UNCA12-1</Uid>
+</InstancePath>
+<Position>0 0 -0.0067499999999999999</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>L_UNCA12-1</Uid>
+</InstancePath>
+<Position>0.040999999999999995 0.023 -0.0067499999999999982</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>B_UNCA12-1</Uid>
+</InstancePath>
+<Position>0.025999999999999999 0 0.0115</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>L_UNCA12-1</Uid>
+</InstancePath>
+<Position>0.025999999999999999 0 -0.011499999999999996</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</Assembly>
+<Assembly name="RSD212B-C1-N-1-150" uid="RSD212B-C1-N-1-150" version="124">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="RSD212B-C1-N-1-150.sldasm" type="SolidWorks Assembly"/>
+<Constraints>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>RSD212B-150_b-1</Uid>
+</InstancePath>
+<Position>-0.16500000000000001 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>RSD212-150_rod-1</Uid>
+</InstancePath>
+<Position>0.04250000000000001 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="LimitDistance1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>RSD212-150_rod-1</Uid>
+</InstancePath>
+<Position>-0.16500000000000001 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>RSD212B-150_b-1</Uid>
+</InstancePath>
+<Position>0 -0.019000000000000284 0.019000000000000284</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>RSD212B-150_b-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>RSD212-150_rod-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</Assembly>
+<Assembly name="SBGTN6901ZZ" uid="SBGTN6901ZZ" version="114">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="SBGTN6901ZZ.sldasm" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="12" uid="12*:*Default" version="104">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="12.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>5.2774967978047692e-05</Mass>
+<CenterOfMass>0 0.00031404909408082581 0</CenterOfMass>
+<Inertia>6.3904614038602835e-09 3.2920351561039029e-09 3.1050231187536377e-09 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="12_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Specular r="0.37647058823529411" g="0.37647058823529411" b="0.37647058823529411" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="12-5" uid="12-5*:*Default" version="104">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="12-5.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00039269908169872416</Mass>
+<CenterOfMass>0 0.0099999999999999985 0</CenterOfMass>
+<Inertia>1.3703561705111732e-08 1.2271846303085134e-09 1.3703561705111732e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="12-5_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Specular r="0.37647058823529411" g="0.37647058823529411" b="0.37647058823529411" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="3leg platform" uid="3leg platform*:*Default" version="152">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="3leg platform.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.98899553521530037</Mass>
+<CenterOfMass>0 0.0073356552193031398 0</CenterOfMass>
+<Inertia>0.025373148855849317 0.050709080442746815 0.025373148855849299 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="3leg platform_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Diffuse r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Specular r="0.33333333333333331" g="0.34901960784313724" b="0.38431372549019605" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="B_UNCA12" uid="B_UNCA12*:*Default" version="110">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="B_UNCA12.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0030754378537495644</Mass>
+<CenterOfMass>0.025999999999999999 0 0</CenterOfMass>
+<Inertia>1.2579188176160016e-07 1.0298245645118143e-07 1.0298245645118143e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="B_UNCA12_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0" g="0" b="0" a="1"/>
+<Diffuse r="0" g="0" b="0" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Base" uid="Base*:*Default" version="143">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Base.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.5560586734010338</Mass>
+<CenterOfMass>0 0.01018870880333384 -1.6237683453292164e-10</CenterOfMass>
+<Inertia>0.042031376004531121 0.083959844561253813 0.042031377289609755 -4.7680027231426401e-14 0 2.1932841729084832e-12</Inertia>
+</MassProperties>
+<GeometryFile name="Base_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.58823529411764708" g="0.58823529411764708" b="0.63137254901960782" a="1"/>
+<Diffuse r="0.4705882352941177" g="0.4705882352941177" b="0.5050980392156863" a="1"/>
+<Specular r="0.20588235294117646" g="0.20588235294117646" b="0.22098039215686271" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Bracket1" uid="Bracket1*:*Default" version="113">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Bracket1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0069195148991641952</Mass>
+<CenterOfMass>0 0.0024999999999999996 0</CenterOfMass>
+<Inertia>2.3404549014601753e-06 4.6520784908404994e-06 2.3404549014601753e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Bracket1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Diffuse r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Specular r="0.33333333333333331" g="0.34901960784313724" b="0.38431372549019605" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Bracket2" uid="Bracket2*:*Default" version="110">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Bracket2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.013556286459505322</Mass>
+<CenterOfMass>0 0.0025000000000000001 0</CenterOfMass>
+<Inertia>3.0931287696030868e-06 6.1297730122915675e-06 3.0931287696030868e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Bracket2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Diffuse r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Specular r="0.33333333333333331" g="0.34901960784313724" b="0.38431372549019605" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="FXFB12-12-F20-M8" uid="FXFB12-12-F20-M8*:*Default" version="127">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="FXFB12-12-F20-M8.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.010780885300407113</Mass>
+<CenterOfMass>0.0074341808910376433 0 0</CenterOfMass>
+<Inertia>1.4858334554184696e-06 1.2644733560250508e-06 1.2644733560250508e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="FXFB12-12-F20-M8_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Diffuse r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Specular r="0.33333333333333331" g="0.34901960784313724" b="0.38431372549019605" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="L_UNCA12" uid="L_UNCA12*:*Default" version="113">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="L_UNCA12.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0053336203858075949</Mass>
+<CenterOfMass>0.010948187139065769 1.3970327966723828e-08 4.7390914970281505e-08</CenterOfMass>
+<Inertia>4.5104075862903085e-07 5.9281189568247267e-07 4.9003530716219202e-07 2.0884192669312506e-12 -3.7476270274020737e-12 -1.8811841517454366e-12</Inertia>
+</MassProperties>
+<GeometryFile name="L_UNCA12_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Diffuse r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Specular r="0.33333333333333331" g="0.34901960784313724" b="0.38431372549019605" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="PSFMR12-30" uid="PSFMR12-30*:*Default" version="105">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="PSFMR12-30.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0033837570873040054</Mass>
+<CenterOfMass>0.014999999999999998 0 0</CenterOfMass>
+<Inertia>6.0760385050789184e-08 2.8283328327525209e-07 2.8283328327525209e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="PSFMR12-30_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="RSD212-150_rod" uid="RSD212-150_rod*:*Default" version="106">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="RSD212-150_rod.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.05879390492862558</Mass>
+<CenterOfMass>-0.071022408035589901 0 0</CenterOfMass>
+<Inertia>2.8415393564721754e-06 0.00017762017546690074 0.00017762017546690074 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="RSD212-150_rod_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Specular r="0.37647058823529411" g="0.37647058823529411" b="0.37647058823529411" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="RSD212B-150_b" uid="RSD212B-150_b*:*Default" version="212">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="RSD212B-150_b.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.70002862828068479</Mass>
+<CenterOfMass>-0.21908080143102779 0.0015699344663574141 5.2995707748711525e-07</CenterOfMass>
+<Inertia>0.00024013280686906754 0.0097647505252935161 0.0097875906243596288 9.8799808343288216e-07 1.9959235386181497e-08 0.00014224978459451842</Inertia>
+</MassProperties>
+<GeometryFile name="RSD212B-150_b_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Diffuse r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Specular r="0.33333333333333331" g="0.34901960784313724" b="0.38431372549019605" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="SBGTN6901ZZ_h" uid="SBGTN6901ZZ_h*:*Default" version="112">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="SBGTN6901ZZ_h.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.005028086951616894</Mass>
+<CenterOfMass>0.00012652376907431098 0 0</CenterOfMass>
+<Inertia>1.3281270827457515e-06 4.3520521726101353e-07 9.4799064215069161e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="SBGTN6901ZZ_h_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Specular r="0.37647058823529411" g="0.37647058823529411" b="0.37647058823529411" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="bearing_6901" uid="bearing_6901*:*Default" version="104">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="bearing_6901.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0018736124951974264</Mass>
+<CenterOfMass>0.003000000000000007 0 0</CenterOfMass>
+<Inertia>1.6875044726982582e-07 8.9227287956537067e-08 8.9227287956537027e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="bearing_6901_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Specular r="0.37647058823529411" g="0.37647058823529411" b="0.37647058823529411" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
