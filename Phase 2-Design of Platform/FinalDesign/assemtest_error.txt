@@ -1,0 +1,12 @@
+Constrained Instances: 'RSD212-150_rod-1', 'Part1 outerr-3'
+Constraint Name: Lock1
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------
+Constrained Instances: 'RSD212-150_rod-1', 'Part1 outerr-3'
+Constraint Name: Lock1
+Error Details: Constraint geometry is not supported. The constraint geometry has been exported as unknown geometry.
+---------------------------------------------------------------------------------
+Constrained Instances: 'RSD212-150_rod-1', 'Part1 outerr-3'
+Constraint Name: Lock1
+Error Details: Constraint geometry is not supported. The constraint geometry has been exported as unknown geometry.
+---------------------------------------------------------------------------------

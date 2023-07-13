@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="07/05/23||03:51:35" using="Simscape Multibody Link Version 7.4" from="SolidWorks 28.0.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="assem" uid="assem" version="305">
+<AssemblyFile name="assem.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="RSD212-150_rod-1" uid="RSD212-150_rod-1" entityUid="RSD212-150_rod*:*Default">
+<Transform>
+<Rotation>-9.536642309182495e-16 0.20366646976555439 0.97904033067756535 0.99619469809174555 -0.0853289872001156 0.017750702445211233 0.087155742747657888 0.97531478663897997 -0.202891457359508</Rotation>
+<Translation>0.38265216379019829 0.80535974743782224 0.30918339172530307</Translation>
+</Transform>
+</Instance>
+<Instance name="RSD212B-C1-N-1-150-3" uid="RSD212B-C1-N-1-150-3" entityUid="RSD212B-C1-N-1-150" rigid="true">
+<Transform>
+<Rotation>-4.0397372946809895e-16 -0.99896349076359514 0.045518612911784023 0.99619469809174555 -0.0039672085171700948 -0.087065405015294792 0.087155742747658513 0.04534540084720963 0.99516213308591572</Rotation>
+<Translation>0.38265216379019817 0.74980727831939953 0.30432318044656681</Translation>
+</Transform>
+<Instance name="RSD212B-150_b-1" uid="RSD212B-150_b-1" grounded="true" entityUid="RSD212B-150_b*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="part 2 innerr-2" uid="part 2 innerr-2" entityUid="part 2 innerr*:*Default">
+<Transform>
+<Rotation>-0.9869390526552887 -0.00023585681934332648 0.16109391892756955 -0.022575071941874515 0.99033370432620038 -0.13685583729737369 -0.15950445909347097 -0.13870507722180456 -0.97740433244496761</Rotation>
+<Translation>0.74265216379019772 0.95179560303618005 0.62695953047229014</Translation>
+</Transform>
+</Instance>
+<Instance name="RSD212-150_rod-2" uid="RSD212-150_rod-2" grounded="true" entityUid="RSD212-150_rod*:*Default">
+<Transform>
+<Rotation>0 -1 0 1 0 0 0 0 1</Rotation>
+<Translation>0.022652163790198639 0.84812412860369135 0.62695953047229092</Translation>
+</Transform>
+</Instance>
+<Instance name="RSD212-150_rod-3" uid="RSD212-150_rod-3" entityUid="RSD212-150_rod*:*Default">
+<Transform>
+<Rotation>0 -1 0 1 0 0 0 0 1</Rotation>
+<Translation>0.74265216379019849 0.84829560303618101 0.62695953047229058</Translation>
+</Transform>
+</Instance>
+<Instance name="part 2 innerr-3" uid="part 2 innerr-3" entityUid="part 2 innerr*:*Default">
+<Transform>
+<Rotation>-0.72807633061155419 -0.00023585681934332222 -0.68549602564477052 0.094911722597890408 0.99033370432620038 -0.10114800536365968 0.6788936748245018 -0.13870507722180397 -0.72101614394975755</Rotation>
+<Translation>0.38265216379019784 0.90846589869031646 0.31820401109968599</Translation>
+</Transform>
+</Instance>
+<Instance name="Part1 outerr-2" uid="Part1 outerr-2" entityUid="Part1 outerr*:*Default">
+<Transform>
+<Rotation>-0.64849503441016676 -2.2875705688950018e-16 -0.76121888464840193 1.0393052836961632e-16 -1 2.1197401768705294e-16 -0.76121888464840193 0 0.64849503441016676</Rotation>
+<Translation>0.74265216379019849 0.95179560303618094 0.62695953047229058</Translation>
+</Transform>
+</Instance>
+<Instance name="part 2 innerr-1" uid="part 2 innerr-1" entityUid="part 2 innerr*:*Default">
+<Transform>
+<Rotation>-0.6984199359659955 -0.00023585681934320036 0.71568815654362727 -0.099432721355165135 0.99033370432620038 -0.096707228268893775 -0.70874729415297311 -0.13870507722180395 -0.69169225424586955</Rotation>
+<Translation>0.022652163790198611 0.9516241286036895 0.62695953047229058</Translation>
+</Transform>
+</Instance>
+<Instance name="Part1 outerr-3" uid="Part1 outerr-3" entityUid="Part1 outerr*:*Default">
+<Transform>
+<Rotation>0.052800892566026381 2.716224538116618e-15 0.99860505994323456 -0.087034165710921249 -0.99619469809174588 0.0046019010093339974 0.99480506620303999 -0.087155742747657181 -0.052599969228787166</Rotation>
+<Translation>0.38265216379019806 0.90846589869031791 0.31820401109968566</Translation>
+</Transform>
+</Instance>
+<Instance name="Part1 outerr-1" uid="Part1 outerr-1" entityUid="Part1 outerr*:*Default">
+<Transform>
+<Rotation>0.95924421427351347 -1.2490009027033011e-16 0.28257837387668189 0 -0.99999999999999989 0 0.28257837387668183 0 -0.95924421427351336</Rotation>
+<Translation>0.022652163790198642 0.95162412860369072 0.62695953047229092</Translation>
+</Transform>
+</Instance>
+<Instance name="plate-1" uid="plate-1" entityUid="plate*:*Default">
+<Transform>
+<Rotation>-0.9999999716401623 0.00023585681934325139 -3.3033852395387015e-05 -0.00023815892726243831 -0.99033370432620038 0.13870507328815063 1.6272571931497438e-15 0.13870507722180414 0.99033373241190437</Rotation>
+<Translation>0.38263705874421905 1.01509122289438 0.61808240553009486</Translation>
+</Transform>
+</Instance>
+<Instance name="baseplate-1" uid="baseplate-1" grounded="true" entityUid="baseplate*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.38265216379019851 0.33323925835032009 0.62695953047229069</Translation>
+</Transform>
+</Instance>
+<Instance name="RSD212B-C1-N-1-150-1" uid="RSD212B-C1-N-1-150-1" entityUid="RSD212B-C1-N-1-150" rigid="true">
+<Transform>
+<Rotation>0 -1 0 1 0 0 0 0 1</Rotation>
+<Translation>0.022652163790198521 0.73473925835032006 0.62695953047229069</Translation>
+</Transform>
+<Instance name="RSD212B-150_b-1" uid="RSD212B-150_b-1" grounded="true" entityUid="RSD212B-150_b*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="RSD212B-C1-N-1-150-2" uid="RSD212B-C1-N-1-150-2" entityUid="RSD212B-C1-N-1-150" rigid="true">
+<Transform>
+<Rotation>0 -1 0 1 0 0 0 0 1</Rotation>
+<Translation>0.74265216379019861 0.73473925835032006 0.62695953047229069</Translation>
+</Transform>
+<Instance name="RSD212B-150_b-1" uid="RSD212B-150_b-1" grounded="true" entityUid="RSD212B-150_b*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="anglerotation-1" uid="anglerotation-1" entityUid="anglerotation*:*Default">
+<Transform>
+<Rotation>-5.131850450089136e-16 -2.565925225044568e-16 -1 -3.8857805861880479e-16 1 -2.565925225044566e-16 1 1.6653345369377348e-16 -5.131850450089138e-16</Rotation>
+<Translation>0.38265216379019845 0.32273880489135703 0.26695953047229071</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>baseplate-1</Uid>
+</InstancePath>
+<Position>-0.35999999999999999 -0.009000000000000008 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>RSD212B-C1-N-1-150-1</Uid>
+<Uid>RSD212B-150_b-1</Uid>
+</InstancePath>
+<Position>-0.3705 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>baseplate-1</Uid>
+</InstancePath>
+<Position>-0.35999999999999999 -0.009000000000000008 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>RSD212B-C1-N-1-150-1</Uid>
+<Uid>RSD212B-150_b-1</Uid>
+</InstancePath>
+<Position>-0.41049999999999998 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>baseplate-1</Uid>
+</InstancePath>
+<Position>0.35999999999999999 -0.009000000000000008 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>RSD212B-C1-N-1-150-2</Uid>
+<Uid>RSD212B-150_b-1</Uid>
+</InstancePath>
+<Position>-0.3705 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>baseplate-1</Uid>
+</InstancePath>
+<Position>0.35999999999999999 -0.009000000000000008 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>RSD212B-C1-N-1-150-2</Uid>
+<Uid>RSD212B-150_b-1</Uid>
+</InstancePath>
+<Position>-0.41049999999999998 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>baseplate-1</Uid>
+</InstancePath>
+<Position>0.019999999999999962 0.0010000000000000009 -0.33999999999999997</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>anglerotation-1</Uid>
+</InstancePath>
+<Position>0.020000000000000018 0.011500453458963056 -0.020000000000000073</Position>
+<Axis>5.1318504500891341e-16 2.565925225044568e-16 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>baseplate-1</Uid>
+</InstancePath>
+<Position>0 0.0010000000000000009 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>anglerotation-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>2.2204460492503116e-16 -1 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Parallel name="Parallel2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>baseplate-1</Uid>
+</InstancePath>
+<Position>0 -0.009000000000000008 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>anglerotation-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>2.2204460492503116e-16 -1 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>baseplate-1</Uid>
+</InstancePath>
+<Position>-0.020000000000000073 -0.009000000000000008 -0.37999999999999995</Position>
+<Axis>1 0 -3.4694469519536167e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>anglerotation-1</Uid>
+</InstancePath>
+<Position>0.020000000000000018 0.015000000000000013 0.019999999999999907</Position>
+<Axis>1.7347234759768061e-16 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>anglerotation-1</Uid>
+</InstancePath>
+<Position>0.0015862175763623476 0.018130549861381018 0</Position>
+<Axis>-0.087155742747658124 -0.99619469809174555 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>RSD212B-C1-N-1-150-3</Uid>
+<Uid>RSD212B-150_b-1</Uid>
+</InstancePath>
+<Position>-0.37050000000000016 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>anglerotation-1</Uid>
+</InstancePath>
+<Position>0.0015862175763623476 0.018130549861381018 0</Position>
+<Axis>0.087155742747658138 0.99619469809174566 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>RSD212B-C1-N-1-150-3</Uid>
+<Uid>RSD212B-150_b-1</Uid>
+</InstancePath>
+<Position>-0.41050000000000014 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>RSD212B-C1-N-1-150-3</Uid>
+<Uid>RSD212B-150_b-1</Uid>
+</InstancePath>
+<Position>-0.16500000000000004 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>RSD212-150_rod-1</Uid>
+</InstancePath>
+<Position>0.042500000000000093 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="LimitDistance1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>RSD212B-C1-N-1-150-3</Uid>
+<Uid>RSD212B-150_b-1</Uid>
+</InstancePath>
+<Position>-1.1102230246251565e-16 -0.019000000000000294 0.019000000000000239</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>RSD212-150_rod-1</Uid>
+</InstancePath>
+<Position>-0.16499999999999992 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric7">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>RSD212B-C1-N-1-150-2</Uid>
+<Uid>RSD212B-150_b-1</Uid>
+</InstancePath>
+<Position>-0.16500000000000004 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>RSD212-150_rod-3</Uid>
+</InstancePath>
+<Position>0.042499999999999982 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="LimitDistance2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>RSD212B-C1-N-1-150-2</Uid>
+<Uid>RSD212B-150_b-1</Uid>
+</InstancePath>
+<Position>0 -0.019000000000000239 0.019000000000000239</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>RSD212-150_rod-3</Uid>
+</InstancePath>
+<Position>-0.16500000000000004 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric8">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>RSD212B-C1-N-1-150-1</Uid>
+<Uid>RSD212B-150_b-1</Uid>
+</InstancePath>
+<Position>-0.16500000000000004 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>RSD212-150_rod-2</Uid>
+</InstancePath>
+<Position>0.042499999999999982 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="LimitDistance3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>RSD212B-C1-N-1-150-1</Uid>
+<Uid>RSD212B-150_b-1</Uid>
+</InstancePath>
+<Position>0 -0.019000000000000281 0.019000000000000239</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>RSD212-150_rod-2</Uid>
+</InstancePath>
+<Position>-0.16500000000000004 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric11">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Part1 outerr-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>part 2 innerr-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric12">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Part1 outerr-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>part 2 innerr-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric13">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Part1 outerr-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>part 2 innerr-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric14">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>RSD212-150_rod-2</Uid>
+</InstancePath>
+<Position>0.042499999999999982 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Part1 outerr-1</Uid>
+</InstancePath>
+<Position>0 0.026000000000000023 0</Position>
+<Axis>0 0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident16">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>RSD212-150_rod-2</Uid>
+</InstancePath>
+<Position>0.042499999999999982 0.0042330000000001013 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part1 outerr-1</Uid>
+</InstancePath>
+<Position>0 0.061000000000000054 0</Position>
+<Axis>0 0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric15">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>RSD212-150_rod-3</Uid>
+</InstancePath>
+<Position>0.042499999999999982 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Part1 outerr-2</Uid>
+</InstancePath>
+<Position>0 0.026000000000000023 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident17">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>RSD212-150_rod-3</Uid>
+</InstancePath>
+<Position>0.042499999999999982 0.0042330000000001533 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part1 outerr-2</Uid>
+</InstancePath>
+<Position>0 0.061000000000000054 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric16">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>RSD212-150_rod-1</Uid>
+</InstancePath>
+<Position>0.042500000000000093 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Part1 outerr-3</Uid>
+</InstancePath>
+<Position>0 0.025999999999999801 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident18">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>RSD212-150_rod-1</Uid>
+</InstancePath>
+<Position>0.042499999999999982 0.0042330000000001533 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part1 outerr-3</Uid>
+</InstancePath>
+<Position>0 0.060999999999999943 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric26">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>part 2 innerr-2</Uid>
+</InstancePath>
+<Position>1.1102230246251565e-16 0.022999999999999909 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>plate-1</Uid>
+</InstancePath>
+<Position>-0.35999999999999999 0.0050000000000000044 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident24">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>part 2 innerr-2</Uid>
+</InstancePath>
+<Position>0 0.058999999999999719 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>plate-1</Uid>
+</InstancePath>
+<Position>-0.35999999999999999 0.0050000000000000044 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric28">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>part 2 innerr-1</Uid>
+</InstancePath>
+<Position>0 0.023000000000000131 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>plate-1</Uid>
+</InstancePath>
+<Position>0.35999999999999999 0.0049999999999998934 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident26">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>part 2 innerr-1</Uid>
+</InstancePath>
+<Position>0 0.059000000000000052 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>plate-1</Uid>
+</InstancePath>
+<Position>0 0.0050000000000001155 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel11">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>part 2 innerr-3</Uid>
+</InstancePath>
+<Position>0 0.023000000000000131 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>plate-1</Uid>
+</InstancePath>
+<Position>0 0.0049999999999998934 -0.35999999999999999</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident28">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>part 2 innerr-3</Uid>
+</InstancePath>
+<Position>0 0.058999999999999941 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>plate-1</Uid>
+</InstancePath>
+<Position>0 0.0050000000000001155 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric32">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>RSD212-150_rod-1</Uid>
+</InstancePath>
+<Position>0.042500000000000093 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Part1 outerr-3</Uid>
+</InstancePath>
+<Position>0 0.025999999999999801 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric33">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>anglerotation-1</Uid>
+</InstancePath>
+<Position>0.0015862175763623476 0.018130549861381018 0</Position>
+<Axis>-0.087155742747658124 -0.99619469809174555 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>RSD212B-C1-N-1-150-3</Uid>
+<Uid>RSD212B-150_b-1</Uid>
+</InstancePath>
+<Position>-0.37050000000000016 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric35">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>RSD212B-C1-N-1-150-3</Uid>
+<Uid>RSD212B-150_b-1</Uid>
+</InstancePath>
+<Position>-0.37050000000000016 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>RSD212-150_rod-1</Uid>
+</InstancePath>
+<Position>0.042500000000000093 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="RSD212B-C1-N-1-150" uid="RSD212B-C1-N-1-150" version="130">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="RSD212B-C1-N-1-150.sldasm" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="Part1 outerr" uid="Part1 outerr*:*Default" version="205">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Part1 outerr.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0074050858880783613</Mass>
+<CenterOfMass>-2.5168639997742922e-08 0.023694272323802435 0</CenterOfMass>
+<Inertia>3.8776653600817064e-06 3.3496687708105016e-06 3.8776946417683263e-06 0 0 6.2211886532413661e-13</Inertia>
+</MassProperties>
+<GeometryFile name="Part1 outerr_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.61960784313725492" g="0.41176470588235292" b="0.20000000000000001" a="1"/>
+<Diffuse r="0.61960784313725492" g="0.41176470588235292" b="0.20000000000000001" a="1"/>
+<Specular r="0.49568627450980396" g="0.32941176470588235" b="0.16000000000000003" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="RSD212-150_rod" uid="RSD212-150_rod*:*Default" version="106">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="RSD212-150_rod.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.05879390492862558</Mass>
+<CenterOfMass>-0.071022408035589901 0 0</CenterOfMass>
+<Inertia>2.8415393564721754e-06 0.00017762017546690074 0.00017762017546690074 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="RSD212-150_rod_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Specular r="0.37647058823529411" g="0.37647058823529411" b="0.37647058823529411" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="RSD212B-150_b" uid="RSD212B-150_b*:*Default" version="212">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="RSD212B-150_b.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.70002862828068491</Mass>
+<CenterOfMass>-0.21908080143102779 0.0015699344663574139 5.2995707748739414e-07</CenterOfMass>
+<Inertia>0.00024013280686906749 0.0097647505252935196 0.0097875906243596322 9.8799808343288089e-07 1.9959235386147361e-08 0.0001422497845945185</Inertia>
+</MassProperties>
+<GeometryFile name="RSD212B-150_b_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Diffuse r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Specular r="0.33333333333333331" g="0.34901960784313724" b="0.38431372549019605" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="anglerotation" uid="anglerotation*:*Default" version="151">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="anglerotation.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.02748354807435003</Mass>
+<CenterOfMass>-0.00036628416489427399 0.0087157842902623808 0</CenterOfMass>
+<Inertia>4.1842936573469236e-06 6.9134706221614346e-06 4.1876971468269915e-06 0 0 7.8517409880240175e-08</Inertia>
+</MassProperties>
+<GeometryFile name="anglerotation_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Diffuse r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Specular r="0.33333333333333331" g="0.34901960784313724" b="0.38431372549019605" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="baseplate" uid="baseplate*:*Default" version="115">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="baseplate.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>15.54116682057666</Mass>
+<CenterOfMass>0 -0.014527790306087546 0.00037062854201999639</CenterOfMass>
+<Inertia>0.6224545938742404 1.2412417336458739 0.62127312543140034 -6.0640072163064209e-05 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="baseplate_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="part 2 innerr" uid="part 2 innerr*:*Default" version="117">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="part 2 innerr.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.1163106699535123</Mass>
+<CenterOfMass>-9.5288472302765704e-09 0.0052741037648411085 0</CenterOfMass>
+<Inertia>5.9398796563858578e-05 3.5399746811140358e-05 5.9399071705668182e-05 0 0 1.885294447958637e-11</Inertia>
+</MassProperties>
+<GeometryFile name="part 2 innerr_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="plate" uid="plate*:*Default" version="115">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="plate.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>5.0076986898221296</Mass>
+<CenterOfMass>0 0.0049905897114178172 0.00045169385194478536</CenterOfMass>
+<Inertia>0.20028645272988732 0.3996761655934552 0.19947317362149947 -5.6761523477657491e-06 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="plate_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
